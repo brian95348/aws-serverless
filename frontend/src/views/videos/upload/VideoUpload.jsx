@@ -79,7 +79,7 @@ const VideoUpload = () => {
             <p>video upload successful! <i className="fa fa-check " ></i></p>
             <div className="btns-div video-upload-btn" >
             <button onClick={handleCancel} className="cancel-btn">Back</button>
-            <button onClick={()=> history.push('/videos/upload')} className="upload-btn">Make another upload</button>
+            <button onClick={()=> window.location.replace('/videos/upload')} className="upload-btn">Make another upload</button>
             </div>
         </div>}
     </div>
