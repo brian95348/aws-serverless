@@ -1,0 +1,36 @@
+
+.videos-header {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 10px auto;
+}
+
+.videos-body {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 10px;
+  margin: auto 20px;
+}
+
+.videos-body video {
+  width: 100% !important;
+  height: auto !important;
+}
+
+.videos-body p {
+  text-align: center;
+}
+
+.transcoding-video-div {
+  position: relative;
+}
+
+.transcoding-loader {
+  position: absolute;
+  bottom: 35%;
+  right: 50%;
+}

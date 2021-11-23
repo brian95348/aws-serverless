@@ -1,0 +1,59 @@
+.video-upload-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.video-upload-container video {
+  width: 100% !important
+}
+
+.video-upload-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.video-upload-item{
+  text-align: center;
+}
+
+.video-upload-btn {
+  padding: 10px 0;
+}
+
+.video-upload-btn button {
+  padding: 8px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.video-upload-header h1 {
+  font-weight: 100;
+  padding: 20px 0
+}
+
+.video-upload-item input {
+  margin: 10px auto;
+}
+
+.btns-div {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  justify-content: center;
+}
+
+.cancel-btn {
+  background: black;
+  color: white;
+}
+
+.upload-btn {
+  background: green;
+  color: black;
+}
